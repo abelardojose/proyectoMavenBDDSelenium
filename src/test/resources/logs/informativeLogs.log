@@ -1,8 +1,44 @@
-22:35:37.429 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-22:35:37.497 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-22:35:37.499 INFO  AUTOMATION - Escribiendo el username
-22:35:37.740 INFO  AUTOMATION - Escribiendo el password
-22:35:37.839 INFO  AUTOMATION - Click en el boton Login
-22:35:37.958 INFO  AUTOMATION - Verificando que el error sea visible y tenga el texto correcto
-22:35:42.461 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-22:35:42.517 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:16.698 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:16.757 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:16.757 INFO  AUTOMATION - Abriendo el menu Burger
+22:50:16.918 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+22:50:16.985 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+22:50:16.986 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+22:50:17.031 INFO  AUTOMATION - Clickenado Logout
+22:50:17.150 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+22:50:17.192 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:22.031 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:22.067 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:22.067 INFO  AUTOMATION - Abriendo el menu Burger
+22:50:22.177 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+22:50:22.223 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+22:50:22.223 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+22:50:27.177 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:27.230 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:27.231 INFO  AUTOMATION - Verificando los links de las redes sociales
+22:50:32.114 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:32.169 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:32.169 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+22:50:32.361 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+22:50:32.404 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+22:50:32.405 INFO  AUTOMATION - Verificando el detalle del item
+22:50:37.351 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:37.408 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:37.408 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+22:50:37.544 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+22:50:37.592 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+22:50:37.593 INFO  AUTOMATION - Haciendo click el boton Back to products
+22:50:37.740 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:37.774 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:37.774 INFO  AUTOMATION - Verificamos la pagina de Shopping
+22:50:42.323 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+22:50:42.368 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:42.368 INFO  AUTOMATION - Escribiendo el username
+22:50:42.594 INFO  AUTOMATION - Escribiendo el password
+22:50:42.724 INFO  AUTOMATION - Click en el boton Login
+22:50:42.821 INFO  AUTOMATION - Verificando que el error sea visible y tenga el texto correcto
+22:50:47.080 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+22:50:47.134 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:52.005 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:52.054 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:52.055 INFO  AUTOMATION - Verificamos la pagina de Shopping

@@ -1,27 +1,117 @@
-22:35:26.626 DEBUG AUTOMATION - Borrando la evidencia de screenshot en ejecucion anterior
-22:35:26.632 DEBUG AUTOMATION - Borrando la evidencia de pagesource en ejecucion anterior
-22:35:26.632 DEBUG AUTOMATION - Probando Hooks
-22:35:26.736 DEBUG AUTOMATION - Master Setup--------------------------
-22:35:26.737 DEBUG AUTOMATION - Defaul driver CHROME
-22:35:26.737 DEBUG AUTOMATION - Init Driver: CHROME
-22:35:26.737 DEBUG AUTOMATION - Headless mode? false
-22:35:35.092 DEBUG AUTOMATION - Maximizar pantalla
-22:35:35.144 DEBUG AUTOMATION - Borrar cookies
-22:35:37.429 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-22:35:37.497 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-22:35:37.499 INFO  AUTOMATION - Escribiendo el username
-22:35:37.740 INFO  AUTOMATION - Escribiendo el password
-22:35:37.839 INFO  AUTOMATION - Click en el boton Login
-22:35:37.958 INFO  AUTOMATION - Verificando que el error sea visible y tenga el texto correcto
-22:35:38.079 DEBUG AUTOMATION - Master TearDown--------------------------
-22:35:38.082 DEBUG AUTOMATION - Finalizar driver
-22:35:38.377 DEBUG AUTOMATION - Master Setup--------------------------
-22:35:38.377 DEBUG AUTOMATION - Defaul driver CHROME
-22:35:38.377 DEBUG AUTOMATION - Init Driver: CHROME
-22:35:38.378 DEBUG AUTOMATION - Headless mode? false
-22:35:40.381 DEBUG AUTOMATION - Maximizar pantalla
-22:35:40.469 DEBUG AUTOMATION - Borrar cookies
-22:35:42.461 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-22:35:42.517 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-22:35:42.661 DEBUG AUTOMATION - Master TearDown--------------------------
-22:35:42.661 DEBUG AUTOMATION - Finalizar driver
+22:50:06.847 DEBUG AUTOMATION - Borrando la evidencia de screenshot en ejecucion anterior
+22:50:06.854 DEBUG AUTOMATION - Borrando la evidencia de pagesource en ejecucion anterior
+22:50:06.854 DEBUG AUTOMATION - Probando Hooks
+22:50:06.936 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:06.937 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:06.937 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:06.937 DEBUG AUTOMATION - Headless mode? false
+22:50:12.716 DEBUG AUTOMATION - Maximizar pantalla
+22:50:12.756 DEBUG AUTOMATION - Borrar cookies
+22:50:12.808 DEBUG AUTOMATION - Asignando la cookie al login
+22:50:16.698 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:16.757 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:16.757 INFO  AUTOMATION - Abriendo el menu Burger
+22:50:16.918 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+22:50:16.985 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+22:50:16.986 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+22:50:17.031 INFO  AUTOMATION - Clickenado Logout
+22:50:17.150 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+22:50:17.192 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:17.325 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:17.328 DEBUG AUTOMATION - Finalizar driver
+22:50:17.619 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:17.619 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:17.619 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:17.619 DEBUG AUTOMATION - Headless mode? false
+22:50:19.226 DEBUG AUTOMATION - Maximizar pantalla
+22:50:19.278 DEBUG AUTOMATION - Borrar cookies
+22:50:19.304 DEBUG AUTOMATION - Asignando la cookie al login
+22:50:22.031 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:22.067 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:22.067 INFO  AUTOMATION - Abriendo el menu Burger
+22:50:22.177 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+22:50:22.223 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+22:50:22.223 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+22:50:22.325 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:22.326 DEBUG AUTOMATION - Finalizar driver
+22:50:22.597 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:22.597 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:22.597 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:22.597 DEBUG AUTOMATION - Headless mode? false
+22:50:24.489 DEBUG AUTOMATION - Maximizar pantalla
+22:50:24.544 DEBUG AUTOMATION - Borrar cookies
+22:50:24.561 DEBUG AUTOMATION - Asignando la cookie al login
+22:50:27.177 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:27.230 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:27.231 INFO  AUTOMATION - Verificando los links de las redes sociales
+22:50:27.430 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:27.431 DEBUG AUTOMATION - Finalizar driver
+22:50:27.675 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:27.675 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:27.675 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:27.676 DEBUG AUTOMATION - Headless mode? false
+22:50:29.464 DEBUG AUTOMATION - Maximizar pantalla
+22:50:29.524 DEBUG AUTOMATION - Borrar cookies
+22:50:29.544 DEBUG AUTOMATION - Asignando la cookie al login
+22:50:32.114 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:32.169 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:32.169 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+22:50:32.361 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+22:50:32.404 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+22:50:32.405 INFO  AUTOMATION - Verificando el detalle del item
+22:50:32.706 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:32.706 DEBUG AUTOMATION - Finalizar driver
+22:50:32.967 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:32.967 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:32.967 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:32.967 DEBUG AUTOMATION - Headless mode? false
+22:50:34.725 DEBUG AUTOMATION - Maximizar pantalla
+22:50:34.791 DEBUG AUTOMATION - Borrar cookies
+22:50:34.815 DEBUG AUTOMATION - Asignando la cookie al login
+22:50:37.351 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:37.408 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:37.408 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+22:50:37.544 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+22:50:37.592 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+22:50:37.593 INFO  AUTOMATION - Haciendo click el boton Back to products
+22:50:37.740 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:37.774 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:37.774 INFO  AUTOMATION - Verificamos la pagina de Shopping
+22:50:37.873 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:37.873 DEBUG AUTOMATION - Finalizar driver
+22:50:38.137 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:38.138 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:38.138 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:38.138 DEBUG AUTOMATION - Headless mode? false
+22:50:40.105 DEBUG AUTOMATION - Maximizar pantalla
+22:50:40.145 DEBUG AUTOMATION - Borrar cookies
+22:50:42.323 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+22:50:42.368 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:42.368 INFO  AUTOMATION - Escribiendo el username
+22:50:42.594 INFO  AUTOMATION - Escribiendo el password
+22:50:42.724 INFO  AUTOMATION - Click en el boton Login
+22:50:42.821 INFO  AUTOMATION - Verificando que el error sea visible y tenga el texto correcto
+22:50:42.906 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:42.906 DEBUG AUTOMATION - Finalizar driver
+22:50:43.163 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:43.163 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:43.163 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:43.163 DEBUG AUTOMATION - Headless mode? false
+22:50:44.832 DEBUG AUTOMATION - Maximizar pantalla
+22:50:44.879 DEBUG AUTOMATION - Borrar cookies
+22:50:47.080 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+22:50:47.134 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+22:50:47.279 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:47.279 DEBUG AUTOMATION - Finalizar driver
+22:50:47.514 DEBUG AUTOMATION - Master Setup--------------------------
+22:50:47.514 DEBUG AUTOMATION - Defaul driver CHROME
+22:50:47.514 DEBUG AUTOMATION - Init Driver: CHROME
+22:50:47.514 DEBUG AUTOMATION - Headless mode? false
+22:50:49.083 DEBUG AUTOMATION - Maximizar pantalla
+22:50:49.128 DEBUG AUTOMATION - Borrar cookies
+22:50:49.166 DEBUG AUTOMATION - Asignando la cookie al login
+22:50:52.005 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+22:50:52.054 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+22:50:52.055 INFO  AUTOMATION - Verificamos la pagina de Shopping
+22:50:52.177 DEBUG AUTOMATION - Master TearDown--------------------------
+22:50:52.177 DEBUG AUTOMATION - Finalizar driver
