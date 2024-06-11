@@ -33,6 +33,7 @@ public class Hooks {
                 FileManager.attachPageSource(scenario);
             }
         }
+        driverManager.status = "passed";
         driverManager.killDriver();
     }
 }

@@ -1,15 +1,27 @@
 package utilities;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DriverManager {
-    private final boolean runServer = System.getenv("JOB_NAME") != null;
+    private final boolean runServer = Boolean.parseBoolean(System.getProperty("runServer", "false"));
+    private WebDriver driver;
+    public String status = "failed";
+    private static RemoteWebDriver remoteDriver;
+
 
     public void buildDriver() {
         if (runServer) {
@@ -17,11 +29,14 @@ public class DriverManager {
         } else {
             buildLocalDriver();
         }
+        new WebDriverProvider().set(driver);
     }
 
     private void buildLocalDriver() {
-        final var headlessMode = System.getProperty("headless") != null;
+        var headlessMode = System.getProperty("headless") != null;
         var browserProperty = System.getProperty("browser");
+        var deviceProperty = System.getProperty("device") != null;
+
 
         if (browserProperty == null) {
             Logs.debug("Defaul driver CHROME");
@@ -32,6 +47,7 @@ public class DriverManager {
 
         Logs.debug("Init Driver: %s", browser);
         Logs.debug("Headless mode? %b", headlessMode);
+        Logs.debug("Emulating device? %s", deviceProperty);
 
 
         final var driver = switch (browser) {
@@ -40,6 +56,11 @@ public class DriverManager {
                 if (headlessMode) {
                     chromeOptions.addArguments("--headless=new");
                 }
+                if (deviceProperty) {
+                    Map<String, String> mobileEmulation = new HashMap<>();
+                    mobileEmulation.put("deviceName", "iPhone X");
+                    chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+                }
                 yield new ChromeDriver(chromeOptions);
 
             }
@@ -47,6 +68,11 @@ public class DriverManager {
                 final var edgeOptions = new EdgeOptions();
                 if (headlessMode) {
                     edgeOptions.addArguments("--headless=new");
+                }
+                if (deviceProperty) {
+                    Map<String, String> mobileEmulation = new HashMap<>();
+                    mobileEmulation.put("deviceName", "iPhone X");
+                    edgeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
                 }
                 yield new EdgeDriver(edgeOptions);
             }
@@ -65,16 +91,64 @@ public class DriverManager {
         Logs.debug("Borrar cookies");
         driver.manage().deleteAllCookies();
         // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        new WebDriverProvider().set(driver);
+        this.driver = driver;
     }
 
     private void builRemoteDriver() {
-        //Cuando tengamos una configuracion para Jenkins
+        var browserProperty = System.getProperty("browser");
+
+        if (browserProperty == null) {
+            Logs.debug("Default remote driver CHROME");
+            browserProperty = "CHROME";
+        }
+
+        final var browser = Browser.valueOf(browserProperty.toUpperCase());
+        String username = "jcapunayg";
+        String accessKey = "uQVB5qXrjv8iX02ds1by6WBkZXR1jOcv8Z0ZXUxXppPEq3gHDg";
+        String gridURL = "@hub.lambdatest.com/wd/hub";
+
+        var browserOptions = switch (browser) {
+            case CHROME -> new ChromeOptions();
+            case FIREFOX -> new FirefoxOptions();
+            case EDGE -> new EdgeOptions();
+            case SAFARI -> new SafariOptions();
+        };
+
+        if (browser == Browser.SAFARI) {
+            browserOptions.setCapability("platformName", "macOS Sonoma");
+        } else {
+            browserOptions.setCapability("platformName", "Windows 11");
+        }
+
+        browserOptions.setCapability("browserVersion", "latest");
+
+        Map<String, Object> ltOptions = new HashMap<>();
+        ltOptions.put("build", "ProyectoMavenBDDSelenium");
+        ltOptions.put("name", "ProyectoMavenBDDSelenium");
+        ltOptions.put("selenium_version", "4.19.0");
+        //ltOptions.put("visual", true);
+        //ltOptions.put("video", true);
+        //ltOptions.put("resolution", "1024x768");
+        ltOptions.put("w3c", true);
+        browserOptions.setCapability("LT:Options", ltOptions);
+
+        try {
+            driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + gridURL), browserOptions);
+        } catch (MalformedURLException e) {
+            Logs.error("Error al inicializar el RemoteWebDriver: %s", e.getMessage());
+        }
     }
 
     public void killDriver() {
-        Logs.debug("Finalizar driver");
-        new WebDriverProvider().get().quit();
+        if (runServer) {
+            Logs.debug("Estatus de la prueba remota: %s", status);
+            ((RemoteWebDriver) driver).executeScript("lambda-status=" + status);
+            Logs.debug("Finalizar driver");
+            driver.quit();
+        } else {
+            Logs.debug("Finalizar driver");
+            driver.quit();
+        }
     }
 
     private enum Browser {
