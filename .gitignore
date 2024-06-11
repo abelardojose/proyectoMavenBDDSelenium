@@ -3,9 +3,9 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-src/test/resources/logs/
 src/test/resources/pageStructure/
 src/test/resources/screenshots/
+src/test/resources/logs
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

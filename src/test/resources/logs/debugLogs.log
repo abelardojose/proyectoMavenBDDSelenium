@@ -1,9 +1,85 @@
-00:36:06.287 DEBUG AUTOMATION - Borrando la evidencia de screenshot en ejecucion anterior
-00:36:06.292 DEBUG AUTOMATION - Borrando la evidencia de pagesource en ejecucion anterior
-00:36:06.292 DEBUG AUTOMATION - Probando Hooks
-00:36:06.391 DEBUG AUTOMATION - Master Setup--------------------------
-00:36:20.082 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-00:36:20.669 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-00:36:21.700 DEBUG AUTOMATION - Master TearDown--------------------------
-00:36:21.703 DEBUG AUTOMATION - Estatus de la prueba remota: passed
-00:36:22.833 DEBUG AUTOMATION - Finalizar driver
+01:02:52.673 DEBUG AUTOMATION - Borrando la evidencia de screenshot en ejecucion anterior
+01:02:52.690 DEBUG AUTOMATION - Borrando la evidencia de pagesource en ejecucion anterior
+01:02:52.690 DEBUG AUTOMATION - Probando Hooks
+01:02:52.800 DEBUG AUTOMATION - Master Setup--------------------------
+01:03:01.155 DEBUG AUTOMATION - Asignando la cookie al login
+01:03:03.159 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:03.771 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:03.771 INFO  AUTOMATION - Abriendo el menu Burger
+01:03:04.202 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+01:03:04.591 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+01:03:04.591 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+01:03:05.001 INFO  AUTOMATION - Clickenado Logout
+01:03:05.923 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+01:03:06.435 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:03:07.667 DEBUG AUTOMATION - Master TearDown--------------------------
+01:03:07.671 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:03:08.798 DEBUG AUTOMATION - Finalizar driver
+01:03:10.658 DEBUG AUTOMATION - Master Setup--------------------------
+01:03:17.848 DEBUG AUTOMATION - Asignando la cookie al login
+01:03:19.366 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:20.053 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:20.053 INFO  AUTOMATION - Abriendo el menu Burger
+01:03:20.462 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+01:03:20.873 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+01:03:20.873 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+01:03:22.103 DEBUG AUTOMATION - Master TearDown--------------------------
+01:03:22.103 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:03:23.331 DEBUG AUTOMATION - Finalizar driver
+01:03:24.243 DEBUG AUTOMATION - Master Setup--------------------------
+01:03:28.315 DEBUG AUTOMATION - Asignando la cookie al login
+01:03:30.805 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:31.418 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:31.420 INFO  AUTOMATION - Verificando los links de las redes sociales
+01:03:33.570 DEBUG AUTOMATION - Master TearDown--------------------------
+01:03:33.570 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:03:35.673 DEBUG AUTOMATION - Finalizar driver
+01:03:36.444 DEBUG AUTOMATION - Master Setup--------------------------
+01:03:47.913 DEBUG AUTOMATION - Asignando la cookie al login
+01:03:49.671 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:50.159 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:50.160 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+01:03:50.670 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+01:03:51.079 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+01:03:51.080 INFO  AUTOMATION - Verificando el detalle del item
+01:03:53.435 DEBUG AUTOMATION - Master TearDown--------------------------
+01:03:53.435 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:03:54.562 DEBUG AUTOMATION - Finalizar driver
+01:03:55.678 DEBUG AUTOMATION - Master Setup--------------------------
+01:03:59.868 DEBUG AUTOMATION - Asignando la cookie al login
+01:04:01.531 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:04:02.255 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:04:02.255 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+01:04:02.631 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+01:04:03.025 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+01:04:03.025 INFO  AUTOMATION - Haciendo click el boton Back to products
+01:04:03.390 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:04:03.777 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:04:03.777 INFO  AUTOMATION - Verificamos la pagina de Shopping
+01:04:05.020 DEBUG AUTOMATION - Master TearDown--------------------------
+01:04:05.021 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:04:06.235 DEBUG AUTOMATION - Finalizar driver
+01:04:06.959 DEBUG AUTOMATION - Master Setup--------------------------
+01:04:15.525 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+01:04:16.271 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:04:16.271 INFO  AUTOMATION - Escribiendo el username
+01:04:16.715 INFO  AUTOMATION - Escribiendo el password
+01:04:17.102 INFO  AUTOMATION - Click en el boton Login
+01:04:17.460 INFO  AUTOMATION - Verificando que el error sea visible y tenga el texto correcto
+01:04:18.320 DEBUG AUTOMATION - Master TearDown--------------------------
+01:04:18.320 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:04:19.457 DEBUG AUTOMATION - Finalizar driver
+01:04:20.172 DEBUG AUTOMATION - Master Setup--------------------------
+01:04:28.436 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+01:04:28.912 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:04:29.916 DEBUG AUTOMATION - Master TearDown--------------------------
+01:04:29.916 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:04:31.224 DEBUG AUTOMATION - Finalizar driver
+01:04:31.780 DEBUG AUTOMATION - Master Setup--------------------------
+01:04:35.536 DEBUG AUTOMATION - Asignando la cookie al login
+01:04:37.059 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:04:37.571 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:04:37.572 INFO  AUTOMATION - Verificamos la pagina de Shopping
+01:04:38.806 DEBUG AUTOMATION - Master TearDown--------------------------
+01:04:38.807 DEBUG AUTOMATION - Estatus de la prueba remota: passed
+01:04:40.027 DEBUG AUTOMATION - Finalizar driver

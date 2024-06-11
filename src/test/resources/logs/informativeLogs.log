@@ -1,2 +1,44 @@
-00:36:20.082 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-00:36:20.669 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:03:03.159 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:03.771 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:03.771 INFO  AUTOMATION - Abriendo el menu Burger
+01:03:04.202 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+01:03:04.591 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+01:03:04.591 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+01:03:05.001 INFO  AUTOMATION - Clickenado Logout
+01:03:05.923 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+01:03:06.435 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:03:19.366 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:20.053 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:20.053 INFO  AUTOMATION - Abriendo el menu Burger
+01:03:20.462 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+01:03:20.873 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+01:03:20.873 INFO  AUTOMATION - Esperando que sea clickeable ya que tiene una transicion
+01:03:30.805 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:31.418 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:31.420 INFO  AUTOMATION - Verificando los links de las redes sociales
+01:03:49.671 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:03:50.159 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:03:50.160 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+01:03:50.670 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+01:03:51.079 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+01:03:51.080 INFO  AUTOMATION - Verificando el detalle del item
+01:04:01.531 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:04:02.255 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:04:02.255 INFO  AUTOMATION - Navegando al detalle del item Sauce Labs Fleece Jacket
+01:04:02.631 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+01:04:03.025 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+01:04:03.025 INFO  AUTOMATION - Haciendo click el boton Back to products
+01:04:03.390 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:04:03.777 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:04:03.777 INFO  AUTOMATION - Verificamos la pagina de Shopping
+01:04:15.525 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+01:04:16.271 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:04:16.271 INFO  AUTOMATION - Escribiendo el username
+01:04:16.715 INFO  AUTOMATION - Escribiendo el password
+01:04:17.102 INFO  AUTOMATION - Click en el boton Login
+01:04:17.460 INFO  AUTOMATION - Verificando que el error sea visible y tenga el texto correcto
+01:04:28.436 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+01:04:28.912 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+01:04:37.059 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+01:04:37.571 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+01:04:37.572 INFO  AUTOMATION - Verificamos la pagina de Shopping

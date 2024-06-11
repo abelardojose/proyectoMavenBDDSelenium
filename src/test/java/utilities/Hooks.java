@@ -31,9 +31,13 @@ public class Hooks {
                 FileManager.getPageSource(scenario.getName());
                 FileManager.attachScreenshot(scenario);
                 FileManager.attachPageSource(scenario);
+                driverManager.status = "failed";
+            }
+            case PASSED -> {
+                driverManager.status = "passed";
             }
         }
-        driverManager.status = "passed";
+
         driverManager.killDriver();
     }
 }
