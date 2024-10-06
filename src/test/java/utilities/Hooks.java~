@@ -18,7 +18,7 @@ public class Hooks {
     public void masterSetup(Scenario scenario) {
         Logs.debug("Master Setup" +
                 "--------------------------");
-        driverManager.buildDriver(scenario.getName());
+        driverManager.buildDriver();
     }
 
     @After

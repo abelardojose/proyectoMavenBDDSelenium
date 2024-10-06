@@ -124,7 +124,7 @@ public class DriverManager {
 
         Map<String, Object> ltOptions = new HashMap<>();
         ltOptions.put("build", "ProyectoMavenBDDSelenium");
-        ltOptions.put("name", testName);
+        ltOptions.put("name", "");
         ltOptions.put("selenium_version", "4.19.0");
         ltOptions.put("project", "ProyectoMavenBDDSelenium");
         //ltOptions.put("visual", true);
